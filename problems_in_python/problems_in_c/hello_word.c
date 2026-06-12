@@ -1,0 +1,10 @@
+int main() 
+{
+	
+    char s[100];
+    scanf("%[^\n]%*c", &s);
+  	
+    printf("Hello, World! \n");
+    printf("%s \n", s);/* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
